@@ -1,0 +1,20 @@
+print ("========================")
+print ("=======EJERCICIO 10======")
+print ("CALCULAR AREA Y VOLUMEN DE CILINDRO")
+print ("========================")
+
+PI=3.141
+
+print("INGRESE RADIO")
+radio=float(input("Radio: "))
+print("INGRESE ALTO")
+alto=float(input("Alto: "))
+
+vol= PI*radio**2*alto
+area=2*PI*radio*(radio+alto)
+
+
+print("=======================")
+print("=======SALIDA==========")
+print ("Area: ", area)
+print("=======================")
