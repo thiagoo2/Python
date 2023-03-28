@@ -1,0 +1,18 @@
+print ("========================")
+print ("=======COMPLEMENTO 3======")
+print ("PASAJE DE EUROS A SOLES Y DOLARES")
+print ("========================")
+EU=3.84
+DO=2.28
+
+s=float(input("ingrese la cantidad de soles: "))
+
+d=s/DO
+e=s/EU
+
+
+print("=======================")
+print("=======SALIDA==========")
+print ("En", s, "soles hay", e,"euros" )
+print ("En", s, "soles hay", d,"dolares" )
+print("=======================")
