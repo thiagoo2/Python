@@ -1,0 +1,19 @@
+print ("========================")
+print ("=======EJERCICIO 8======")
+print ("PERIMETRO Y SUPERFICIE")
+print ("========================")
+
+print ("INGRESE LA BASE")
+BASE=float(input("Base:"))
+
+print ("INGRESE EL ALTO")
+ALTO=float(input("Alto:"))
+
+SUP= BASE*ALTO
+PER=2*(BASE+ALTO)
+
+print("=======================")
+print("=======SALIDA==========")
+print ("Superficie: ", SUP)
+print ("Perimetro: ", PER)
+print("=======================")
