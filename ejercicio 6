@@ -1,0 +1,18 @@
+print ("========================")
+print ("=======EJERCICIO 6======")
+print ("DISTANCIA ENTRE 2 PUNTOS")
+print ("========================")
+
+print ("ingrese coordenadas del punto A")
+AX = float(input("Ax: "))
+AY = float(input("Ay: "))
+
+print ("ingrese coordenadas del punto B")
+BX = float(input("Bx: "))
+BY = float(input("By: "))
+D=((AX-BX)**2+(AY+BY)**2)**0.5
+
+print("=======================")
+print("=======SALIDA==========")
+print (D)
+print("=======================")
