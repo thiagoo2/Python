@@ -1,0 +1,19 @@
+print ("========================")
+print ("=======EJERCICIO 9======")
+print ("GASOLINERA")
+print ("========================")
+
+LITXG=3.785
+PRECIOXL=4.50
+
+
+consu=float(input("Ingresar consumo:"))
+
+
+total=consu*LITXG*PRECIOXL
+
+
+print("=======================")
+print("=======SALIDA==========")
+print ("Total: ", total)
+print("=======================")
