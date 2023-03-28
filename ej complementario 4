@@ -1,0 +1,15 @@
+print ("========================")
+print ("=======COMPLEMENTO 4======")
+print ("CALCULAR LA VELOCIDAD DE UN MOVIL")
+print ("========================")
+
+
+t=float(input("ingrese el tiempo en segundos: "))
+d=float(input("ingrese la distancia en metros: "))
+v=d/t
+
+
+print("=======================")
+print("=======SALIDA==========")
+print ("La velocidad es:",v,"ms" )
+print("=======================")
