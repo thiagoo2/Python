@@ -1,0 +1,7 @@
+print ("===============")
+print ("DIAGRAMA DE FLUJO 11")
+print ("===============")
+
+CAL = float(input("ingrese la calificacion"))
+if CAL >=10:
+    print ("aprobado")
