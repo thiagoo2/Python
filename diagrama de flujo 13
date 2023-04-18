@@ -1,0 +1,11 @@
+print("====================")
+print("DIAGRAMA DE FLUJO 13")
+print("====================")
+
+año= int(input("ingrese el año"))
+
+if (año%4) and (año%100<>0) or (año%400=0):
+    print ("el año es bisiesto")
+    else:
+        print("el ano no es bisiesto")
+        
