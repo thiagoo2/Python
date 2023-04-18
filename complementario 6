@@ -1,0 +1,15 @@
+print ("================")
+print ("COMPLEMENTARIO 6")
+print ("================")
+
+MI=1.609344
+
+print("Ingrese número de millas:")
+m=flaot(input())
+
+k=m*MI
+
+print ("===============")
+print ("SALIDA")
+print ("===============")
+print (m,"millas tiene",k," kilómetros") 
