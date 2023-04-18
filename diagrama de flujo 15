@@ -1,0 +1,21 @@
+print("====================")
+print ("DIAGRAMA DE FLUJO 15")
+print("====================")
+
+NUM=int(input("Ingrese número"))
+par_Impar = {
+    1: "impar"
+    3: "impar"
+    5: "impar"
+    7: "impar"
+    9: "impar"
+    0: "par"
+    2: "par"
+    4: "par"
+    6: "par"
+    8: "par"
+    10: "par"
+}
+
+print("SALIDA")
+print(par_Impar.get(NUM, "Numero fuera de Rango"))
