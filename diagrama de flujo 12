@@ -1,0 +1,11 @@
+print("=========0==========")
+print("DIAGRAMA DE FLUJO 12")
+print("=========0===========")
+
+SUE=float(input("Ingrese sueldo"))
+
+if SUE<1000:
+    AUM=SUE*0.15
+    SUE=SUE+AUM
+print ("SALIDA")
+print ("el sueldo es de: "+SUE)
