@@ -1,0 +1,16 @@
+print("=================")
+print("IGUALES O DISTINTOS")
+print("=================")
+
+print("ingrese 3 numeros")
+a=int(input("Ingrese a: "))
+b=int(input("Ingrese b: "))
+c=int(input("Ingrese c: "))
+
+print("RESULTADO")
+print("=========")
+
+if a+b==c:
+    print("Iguales")
+else:
+    print("Distintos")
