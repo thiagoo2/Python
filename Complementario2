@@ -1,0 +1,13 @@
+print("=============")
+print("Mostrar de Menor a Mayor")
+print("=============")
+
+print("ingrese dos números")
+a=int(input("ingrese el primer número: "))
+b=int(input("ingrese el segundo número: "))
+
+if (a<b):
+    print("Los nùmeros son: ",a,",",b)
+else:
+    print("Los nùmeros son: ",b,",",a)
+    
