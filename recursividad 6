@@ -1,0 +1,15 @@
+print("===========================")
+print("DETERMINAR VALOR Y RANGO MAYOR A 300")
+print("===========================")
+
+A1=1
+A2=0
+An=A1+(2*A2)
+cont=0
+
+while an<300:
+    A2=A1
+    A1=an
+    an=A1+(2*A2)
+    cont=cont+1
+print("El rango es",cont,"y el resultado es", an)
