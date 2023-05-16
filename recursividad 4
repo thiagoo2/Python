@@ -1,0 +1,12 @@
+print("====================")
+print("DETERMINAR LA SALIDA")
+print("====================")
+
+N=int(input("introduce un número"))
+
+while N>0:
+    RESTO = N % 10
+    print(RESTO)
+
+    N=N // 10
+    
