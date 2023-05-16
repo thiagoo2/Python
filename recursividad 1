@@ -1,0 +1,19 @@
+print("==================")
+print("=CALCULAR INTERES=")
+print("==================")
+C=-1
+I=0
+M=0
+
+while(C<0) o (I<=0) o (I>=100) o (M<=0)
+print("Introduce el capital, el interés y el tiempo apropiados")
+C=int(input("Capital: "))
+I=int(input("Interés: "))
+M=int(input("Tiempo en años: "))
+
+i=0
+
+for i in ranger(M)
+C=C*(1+1/100)
+
+print("Tienes ",C,"soles")
