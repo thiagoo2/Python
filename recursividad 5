@@ -1,0 +1,50 @@
+
+Recursividad (While, For) 6 Ejercicios Iniciales Pag. 150
+Christian Chiramberro
+•
+25 abr (Última modificación: 9 may)
+100 puntos
+Crear un Github y subir el enlace donde se almacenan los 6 ejsercicios de Recursividad
+Comentarios de la clase
+Tu trabajo
+Asignado
+
+asd.py
+Texto
+
+calculando.py
+Texto
+
+calcular suma de divisores.py
+Texto
+
+determinar la salida.py
+Texto
+
+primosw entre 1 y 1000.py
+Texto
+Comentarios privados
+print("============================")
+print("Números primos entre 1 y 100")
+print("============================")
+
+primero = 2
+limite = 1000 
+
+cont=0
+
+for i in range(primero, limite):
+    primo=True
+    j=2
+
+    while(i>j) and (primo==True):
+        if i%j==0:
+            primo=False
+        break
+    else:
+        j=j+1
+if primo == True:
+    print(i,"es primo.")
+    Cont = Cont + 1
+
+print("Entre",primero,"y",limite,"hay",Cont,"nº primos")
